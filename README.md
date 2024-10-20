@@ -57,11 +57,6 @@ node --version
 npm --version
 <h2 id="installation">💻 Installation</h2>
 
-Clone the repository
-
-bashCopygit clone https://github.com/yourusername/todo-list-app.git
-cd todo-list-app
-
 Setup Backend
 
 bashCopy# Navigate to backend directory
@@ -100,104 +95,6 @@ npm run dev
 Start Frontend Development Server
 
 bashCopycd frontend
-npm run dev
+npm start
 Access the application at: http://localhost:3000
-<h2 id="deployment">📦 Deployment</h2>
-<h3>Backend Deployment (Railway)</h3>
 
-Create Railway account
-Install Railway CLI:
-
-bashCopynpm i -g @railway/cli
-
-Deploy:
-
-bashCopyrailway up
-<h3>Frontend Deployment (Vercel)</h3>
-
-Create Vercel account
-Install Vercel CLI:
-
-bashCopynpm i -g vercel
-
-Deploy:
-
-bashCopyvercel
-<h2 id="testing">🧪 Testing</h2>
-<h3>Running Tests</h3>
-bashCopy# Backend tests
-cd backend
-npm test
-
-# Frontend tests
-cd frontend
-npm test
-<h2 id="api">📡 API Endpoints</h2>
-MethodEndpointDescriptionGET/api/tasksGet all tasksPOST/api/tasksCreate new taskPUT/api/tasks/:idUpdate taskDELETE/api/tasks/:idDelete task
-<h2 id="folder-structure">📁 Project Structure</h2>
-Copytodo-list-app/
-├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── layout.js
-│   │   │   ├── page.js
-│   │   │   └── globals.css
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   └── styles/
-│   ├── public/
-│   └── package.json
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   └── server.js
-│   └── package.json
-└── README.md
-<h2 id="contributing">🤝 Contributing</h2>
-
-Fork the repository
-Create your feature branch:
-
-bashCopygit checkout -b feature/AmazingFeature
-
-Commit your changes:
-
-bashCopygit commit -m 'Add some AmazingFeature'
-
-Push to the branch:
-
-bashCopygit push origin feature/AmazingFeature
-
-Open a Pull Request
-
-<h2 id="troubleshooting">❗ Troubleshooting</h2>
-<h3>Common Issues</h3>
-
-MongoDB Connection Issues
-
-bashCopy# Check if MongoDB is running
-mongosh
-
-Port Already in Use
-
-bashCopy# Kill process using port 5000
-sudo lsof -i :5000
-kill -9 PID
-<h2 id="license">📄 License</h2>
-This project is licensed under the MIT License - see the LICENSE file for details.
-<h2 id="acknowledgments">👏 Acknowledgments</h2>
-
-Next.js Documentation
-Express.js Documentation
-MongoDB Documentation
-Tailwind CSS Documentation
-
-<div align="center">
-  <h3>🌟 Don't forget to star this repository if you found it helpful! 🌟</h3>
-</div>
-
-<div align="center">
-  Made with ❤️ by [Your Name]
-</div>
